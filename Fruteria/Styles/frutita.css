@@ -1,0 +1,483 @@
+/* Aqui quito los estilos del navegador*/
+*{
+    margin: 0;
+    padding:0;
+	font-family:sans-serif;
+	font-size:18px;
+	
+}
+
+/* Aqui pongo los estilos comunes al body*/
+
+.cuerpo{
+	background-color:aliceblue;
+		h2{
+			text-align: center;
+		}
+}
+.titulo1{
+	font-size:x-large;
+}
+
+/* Aqui pongo el primer encabezado*/
+
+.flex-box{
+	display: flex;
+	flex-flow: row,nowrap;
+	justify-content: space-around;
+	background-color: gold;
+	
+	
+}
+/*Aquí pongo en negrita el texto*/
+.negrita{
+	font-weight: bold;
+}
+
+/*Aqui pongo los estilos del logo, título y redes sociales*/
+.flex-box1{
+	display: flex;
+	flex-flow: row,nowrap;
+	justify-content: space-between;
+	background-color: greenyellow;
+	
+	
+}
+
+
+.flex-box2{ 
+
+margin-top: 20px;
+
+}
+
+.flex-box3, .flex-box4{
+	margin-top: 20px;
+}
+
+/* Aqui pongo*/
+.instagram{
+ cursor: pointer;
+}
+
+/* Aqui pongo los estilos de la barra de búsqueda*/
+.formulario{
+	font-weight: bold;
+}
+
+
+
+
+/* Aqui pongo los estilos del menú de navegación */
+
+.flex-containerfrut{
+	display: flex;
+	flex-flow:block;
+  background-color: transparent;
+	
+}
+
+    
+.flex-containerfrut ul li{
+margin: 20px;
+margin-top:5px;
+margin-left: -10px;
+padding: 1px;
+list-style: none;
+
+}
+     
+
+.flex-containerfrut li a{
+	background-color:darkturquoise;
+	border-radius: 15px;
+	padding:10px;
+	text-decoration: none;
+    color: black;
+	transition: background-color .6s, margin-left .6s, margin-right .6s;
+	-webkit-transition: background-color .6s, margin-left .6s, margin-right .6s;
+	-o-transition: background-color .6s, margin-left .6s, margin-right .6s;
+	-moz-transition:background-color .6s, margin-left .6s, margin-right .6s;
+}
+.flex-containerfrut ul li a:hover{
+	margin-right:30px;
+	margin-left:8px;
+	background-color: aquamarine;
+
+
+}
+
+	
+/* Aqui pongo los divs del encabezado2 */
+.encabezado2{
+	display:flex;
+	flex-flow: row, nowrap;
+	justify-content:space space-between;
+	
+}
+.alineación1{
+
+
+margin-left:400px;
+padding:10px;
+background-color: aqua;
+border-radius: 30px;
+line-height: 40px;
+font-size:25px;
+text-align: center;
+}
+
+.alineación2{
+
+text-align: center;
+margin: 20px;
+border: 1px solid, transparent;
+border-radius:10px;
+background-color: rgb(223, 226, 43);
+padding:10px;
+line-height: 40px;
+
+}
+
+
+/* Aqui pongo los productos */
+.productos{
+	font-weight: bold;
+	
+	
+}
+/* Aqui pongo el título galeria centrado */
+.galeria{
+text-align: center;
+font-weight: bold;
+}
+
+/*Aquí tenemos la primera galeria*/
+.galeria1{
+	display:flex;
+	flex-flow: row, nowrap;
+	justify-content: center;
+	
+}
+
+.galeria2{
+
+display: flex;
+flex-flow:row,nowrap;
+}
+
+
+
+/*Aquí pongo el footer*/
+
+.flex-container5{
+	display: flex;
+	flex-flow: row,nowrap;
+	justify-content: space-between;
+	background-color: gold;
+	
+    height:55px;
+	padding:10px;
+	
+	
+	
+}
+.flex-container5 a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold;
+	
+	
+}
+
+
+
+/*Segundo apartado de la página catálogo*/
+.productos{
+	text-align: center;
+}
+
+.registro{
+	height:160px;
+	width: 160px;
+	object-fit: cover;
+	border-radius:30px 30px 0px 0px;
+	
+}
+*/Aquí pongo la pseudoclase con hover*/
+
+.registro:hover{
+transform:scale(1.2);
+}
+
+.contenedor{
+ display:flex;
+ flex-flow: row,wrap;
+ justify-content: center;
+ align-items: center;
+ gap:10%;
+}
+.información{
+	background-color: gold;
+	text-align: center;
+
+}
+.botón{
+	text-align: center;
+	cursor:pointer;cursor:hand;
+
+}
+/* Aqui alineo el menú con el cuadro*/
+.catálogo{
+	display:flex;
+	
+	
+}
+/* Aqui pongo los estilos del cuadro*/
+.enunciado{
+
+width:600px;
+height:200px;
+border:1px solid;
+	
+padding:10px;
+background-color: aqua;
+border-radius: 30px;
+line-height: 40px;
+font-size:25px;
+text-align: center;
+margin-left:300px;
+
+
+}
+
+
+
+
+/* Aqui pongo los estilos del menú de navegación */
+
+.flex-containerfrut{
+	display: flex;
+	flex-flow:block;
+  background-color: transparent;
+	
+}
+
+
+
+
+
+
+
+
+/*Aquí pongo el botón del carrito*/
+.botoncito:active{
+	background-color:yellow;
+	
+
+}
+/*Aquí pongo los estilos del carrito de compras*/
+.carrito{
+   cursor: pointer;
+
+}
+/*Aquí pongo los estilos al h2 del carrito*/
+.informaciónCompra h2{
+	margin: 50px, 0,0, 50px;
+	width:100%
+}
+.x{
+	cursor:pointer;
+	padding-top: 30px;
+	padding-right:30px;
+	color:white;
+}
+/*Aquí pongo donde vamos a poner los productos*/
+.productosCompra{
+	overflow:auto;
+	position:relative;
+	overflow-y:auto;
+	justify-content: flex-start;
+	flex-direction: column;
+	
+	
+}
+.productosCompra div{
+	display:flex;
+	justify-content: space-between;
+
+}
+.carrito{
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+.productosCompra .carrito{
+
+
+cursor:pointer;
+}
+.total{
+	z-index:1;
+	display:flex;
+	align-items: flex-star;
+	justify-content: space-between;
+	gap: 150px;
+}
+
+
+
+/*Aquí doy estilo a la scroll bar*/
+.productosCompra::-webkit-scrollbar{
+	background-color: black;
+	border-radius:5px;
+}
+.productosCompra::-webkit-scrollbar-thumb{
+	background-color: black;
+	border-radius:3px;	
+}
+
+
+
+
+	
+	/* Aqui pongo los estilos de la pestaña tienda*/
+
+	.historia{
+
+		width:600px;
+		height:200px;
+		border:1px solid;
+			
+		padding:10px;
+		background-color: aqua;
+		border-radius: 30px;
+		line-height: 40px;
+		font-size:25px;
+		text-align: center;
+		margin-left:230px;
+		
+		
+		}
+	.título{
+		
+		font-weight:bold;
+		border-style:groove;
+		background-color:aqua;
+		width:400px;
+		height:35px;
+		text-align:center;
+		padding-top:10px;
+		margin-left:30px;
+		}
+		
+	
+	.imagen{
+		text-align: center;
+	}
+	.alineación{
+		text-align: center;
+	}
+	.horarios{
+		text-align:center;
+		font-weight: bold;
+		font-size:20px;
+		text-decoration: underline;
+	}
+	.centrar{
+		display:flex;
+		justify-content: center;
+		
+	}
+	.tabla{
+		border: 1px solid black;
+		background-color:mediumspringgreen;
+		
+	}
+	th{
+		height:50px;
+		width: 80px;
+		
+	}
+	td{
+     width:30px;
+	}
+
+/* Aqui pongo los estilos de la pestaña servicios*/
+.servicios{
+	text-decoration:underline;
+	text-align: center;
+	margin-left:470px;
+	margin-top:50px;
+	font-size:28px;
+}
+.ofrecer{
+	text-align: center;
+	line-height: 30px;
+}
+.ofrecimiento{
+	font-size:26px;
+}
+/* Aqui centros los apartados */
+.flex-contacto{
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: nowrap;
+	margin-left:90px;
+	margin-right:90px;
+
+}
+
+/* Aqui centros los apartados */
+.esperar{
+	text-align:center;
+	font-size:30px;
+
+}
+
+
+
+/* Aqui pongo los estilos de los apartados teléfono, emial y contacto */
+.telf, .email, .flecha{
+	border: 1px solid;
+	border-radius:20px;
+	background-color:whitesmoke;
+	width: 170px;
+	height:150px;
+	text-align: center;
+}
+/* Aqui pongo el título de la pestaña contacto */
+.centrando{
+	display: flex;
+	justify-content: center;
+	
+}
+.centrar{
+	font-size:23px;
+}
+.contactar{
+		
+	font-weight:bold;
+	border-style:groove;
+	background-color:rgb(60, 171, 179);
+	width:120px;
+	height:35px;
+	text-align:center;
+	padding-top:10px;
+}
+
+
+/* Aqui pongo los esttilos COMUNES a todas las pestañas del footer*/
+.afinando{
+	
+	margin-left:60px;
+	margin-right:30px;
+	line-height: 40px;;
+
+}
+.propiedad{
+	font-size:26px;
+	text-decoration:underline;
+	text-align:center;
+}
+
