@@ -1,0 +1,144 @@
+
+/* Aqui quito los estilos del navegador*/
+*{
+    margin-top:8px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    padding:0;
+    background-color:whitesmoke;
+    color: black;
+  
+  
+}
+
+/* Aqui pongo el menú*/
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+    flex-flow:row,nowrap;
+    background-color: darkblue;
+    
+    
+	
+
+}
+.flex-container  a{
+    text-decoration: none;
+    font-size:28px;
+    color:white;
+    background-color: darkblue;
+
+
+   
+}
+
+/*Aquí pongo los estilos de la presentación*/
+.presentación{
+    text-align: center;
+    
+   
+}
+.hola{
+    text-decoration: none;
+}
+/*Aquí pongo la imagen de la presentación*/
+.imagen{
+width: 1245px;
+height: 1000px;
+
+}
+.centrar{
+    text-align: center;
+}
+
+/* Pongo los estilos de los body comunes a cada pestaña de la página*/
+.fondo{
+ margin:20px;
+ font-size:20px;
+ line-height:40px;
+ 
+ }
+h1,h2,p{
+    text-align: center;
+}
+h1{
+    text-decoration:underline;
+}
+/* Pongo los estilos de la pestaña formación*/
+
+.primero, .segundo{
+    text-align: center;
+   
+}
+
+/*Aquí pongo los estilos de la pestaña experiencia*/
+
+
+
+
+
+
+
+/*Aquí pongo los estilos de la pestaña programación*/
+.ordenador{
+    width: 400px;
+    height:400px;
+    display: flex;
+    flex-flow:row,nowrap;
+    justify-content:center;
+}
+.alineación{
+    line-height:40px;
+    font-size: 18px;;
+    margin: 50px;
+}
+.prog{
+text-decoration:underline;
+}
+
+
+
+
+
+
+/*Aquí pongo los estilos de la pestaña proyectos*/
+.centrar{
+    text-align: center;
+    text-decoration: underline;
+}
+.parrafo{
+   
+    text-align: center;
+    
+}
+/*Aquí pongo los estilos de la pestaña contacto*/
+.contacto{
+    width="616";
+    height="244";
+}
+.cv{
+    width="50px";
+    height="50px";
+}
+.watssap{
+    text-align: center;
+}
+.arroba{
+    text-align: center;
+}
+
+.enlace{
+
+    cursor: pointer;
+    }
+    .contacto{
+    text-align: center;
+    text-decoration: underline;
+    
+    }
+    .apartado1{
+    margin:20px;
+    
+    text-align: center;
+    line-height: 40px;
+    }

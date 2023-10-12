@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Aquí pongo los estilos comunes a todas las páginas*/
+
+*{
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	background-color:lightskyblue;
+	font-size:20px;
+	margin:10px;
+	line-height:50px;
+	
+}
+.títulos{
+	font-size: 30px;
+	text-align: center;
+	margin:10px;
+}
+
+/*Aquí pongo los estilos del la página de inicio*/
+
+/*estilos del primer encabezado*/
+
+.encabezado1{
+	
+	display:flex;
+	flex-flow:row, nowrap;
+	justify-content: space-between;
+	
+	background-color: white;
+
+}
+.teléfono,.correo, .ubicación{
+	width: 40px;
+	height:30px;
+	
+}
+.sub{
+	text-align: center;
+	background-color: #116c96;
+	
+	
+}
+.tef, .email, .dirección{
+	background-color:white;
+	font-weight: bold;
+}
+
+/*Aquí pongo el h1 */
+
+.título1{
+	background-color:#0b8cbe;
+	text-align: center;
+	font-size:30px;
+	height: 50px;
+}
+
+
+/*Aquí pongo dos pseudoclases para cambiar el color*/
+
+.título1:hover{
+	background-color:white;
+	}
+
+.flex-container a:hover{
+		background-color:white;
+		}
+
+/*Aquí pongo los estilos del menú de la página principal */
+.flex-container{
+	display: flex;
+	flex-flow:row,nowrap;
+	justify-content:space-between;
+	background-color:gainsboro;
+	
+}
+.flex-container a {
+	text-decoration: none;
+	background-color:gainsboro;
+	font-size: 23px;
+	margin: 5px;
+	padding:3px;
+	
+	color: black;
+	
+}
+
+
+
+/* Aquí pongo las imágenes y los estilos de la página principal*/
+.image{
+	display:flex;
+	flex-flow: row, nowrap;
+	justify-content: center;
+}
+
+.genteMayor{
+	width:450px;
+	height:400px;
+	
+}
+.tratamiento{
+	width:500px; 
+	height:400px;
+
+}
+
+	
+
+nav div{
+
+color: black;
+list-style: none;
+
+}
+
+
+.titulo1{
+	text-align: center;
+	color: black;
+}
+
+	
+	.yo{
+		text-align: left;
+		
+		
+	}
+	
+
+
+/* Aquí pongo el footer, apartado inferior*/
+
+.flex-container{
+	 
+display:flex;
+flex-flow:row,nowrap;
+justify-content:center;
+background-color:gainsboro;
+
+}
+footer a {
+font-size:23px;
+color: black;
+text-decoration: none;
+background-color:gainsboro;
+
+
+}
+
+
+/*Aquí pongo los estilos de la pestaña formulario*/
+.recuadro{
+	background-color: whitesmoke;
+	width: 800px;
+}
+.Elegir{
+	background-color: whitesmoke;
+	width: 800px;
+	padding: 10px;
+	font-size: 18px;
+}
+.cuadro{
+	background-color: whitesmoke;
+    width: 800px;
+	height:400px;
+	font-size: 18px;
+}
+.enviado{
+	text-align:center;
+}
+.enviar{
+	font-size: 18px;
+	text-align:center;
+	background-color: aliceblue;
+}
+
+/*Aquí pongo en la pestaña tratamientos los estilos de las preguntas más freceuntes*/
+
+.títulos{
+
+}
+.preguntas{
+	border: 1px solid #000;
+	background-color: aliceblue;
+}
+.frecuente{
+	text-align:center;
+	background-color: darkblue;
+}
+.negrita{
+	font-weight:bold;
+}
+.rodilla{
+	height:550px;
+	width:400px;
+}
+.cuello{
+	height:400px;
+	width:600px;
+}
+.ro{
+	display:flex;
+	flex-flow: row,nowrap;
+	justify-content: center;
+}
+
+/*Aquí pongo los estilos de la pestaña tarifas*/
+.centrar{
+	text-align: center;
+}
+.ventajas{
+	list-style:none;
+}
+
+.tabla{
+	border: 1px solid black;
+	background-color: aliceblue;
+	width: 700px;
+	height:300px;
+	
+}
+
+.tablita{
+ display:flex;
+ flex-flow:row,nowrap;
+ justify-content: center;
+}
+.tarifas{
+	font-weight: bold;
+	font-size:larger;
+	text-decoration: underline;
+}
+th,td{
+	padding:20px;
+
+}
+.imgcentro{
+	text-align:center
+}
+
+/*Aquí pongo los estilos de la pestaña quién soy*/
+.subtitulo{
+	text-align: center;
+	font-size:20px;
+	font-weight:bold;
+	text-decoration: underline;
+}
+
+/*Aquí pongo los estilos de la tabla experiencia profesional*/
+	
+.experimentando{
+	border: 1px solid black;
+	border-radius: 30px;
+	background-color:  aliceblue;
+	list-style: none;
+	text-align:center;
+}
+
+	
+
+
+/*Aquí pongo los estilos de la pestaña ramas de la fisioterapia*/
+.primero{
+	display: flex;
+	flex-flow:row,nowrap;
+	justify-content: center;
+	text-align: center;
+}
+.segundo{
+	display: flex;
+	flex-flow:row,nowrap;
+	justify-content: center;
+	text-align: center;
+}
+.imagen{
+	width:300px;
+	height:300px;
+	border-radius:30px;
+
+}
+div>img> p{
+	font-weight:bold;
+	font:18px;
+}
+.centrado{
+	text-align: center;
+}

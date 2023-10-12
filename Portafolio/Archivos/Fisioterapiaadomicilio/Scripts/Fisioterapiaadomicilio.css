@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+/*Aquí pongo la barra de desplazamiento*/
+.barra{
+	
+	width:6px;
+	height: 6px;
+	overflow: scroll;
+}
+
+
+
+
+
+
+/*pongo todo el body de color agua marina*/
+
+*{
+	background-color: aquamarine
+}
+
+.primerelemento{
+	
+position: fixed;
+}
+.posición1{
+	position: relative;
+	top: 50%;
+	
+}
+.posición2{
+	
+	
+}
+/* titulo*/
+.titulo1{
+	align-content:center;
+	color: darkblue;
+	
+	
+	/* titulo h1*/
+	
+	.yo{
+		text-align: left;
+		
+		
+	}
+	
+}
+/*Aquí pongo el logotipo de la neurona*/
+
+.neurona{
+	
+	float: left;
+
+	
+}
+
+
+
+
+
+/* Aquí pongo el estilo de la barra de menú de navegación*/
+.menú {
+	margin:0;
+	border: medium;
+	padding: 20px;
+	background-color: greenyellow;
+	width: 10%	
+	color:black;
+	text-decoration:none;
+	font-size: large;
+	text-align: left;
+}
+
+
+
+
+
+.flex-container{
+	
+   
+  display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+	
+	
+}
+.caja1{
+	
+	border: medium,solid,#000000;
+	background-color: aquamarine;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	width: 10px;
+	height: 10px;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	text-decoration:none;
+	
+}
